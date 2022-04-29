@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.navigation ol {
+    display: flex;
+    justify-content: flex-end;
+    background: #004444;
+    list-style-type: none;
+}
+a {text-decoration: none;}
+
+.navigation a {
+    padding: 1em 2em 1em 2em;  /*top right bottom left*/
+    display: block;
+    color: white;
+    background: #004444;
+}
+
+.navigation a:hover {background: #007777}/*подсветка при наведении*/
+
+form, .submit-history-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+#submit-button {
+    display: flex;
+    margin-left: 25%;
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: #007777;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-size: 14pt;
+}
+label {
+    font-size: 14pt;
+}
+
+.delete-button {
+    display: flex;
+    margin-left: 25%;
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: #007777;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+}
